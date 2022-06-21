@@ -13,18 +13,18 @@ const Section = () => {
         <div>
             <img src={heading_stripes} alt='heading_stripes'/>
             <h1>Our Projects</h1>
-            <p>Al Madar Property Management currently manages the following assets, with great client satisfaction in the property management services offered and an occupancy rate of above 90%. As a result, we have a portfolio that includes villas, flats, offices, and industrial buildings, yet we are expanding.</p>
+            <p className='text-center ml-52'>Al Madar Property Management currently manages the following assets, with great client satisfaction in the property management services offered and an occupancy rate of above 90%. As a result, we have a portfolio that includes villas, flats, offices, and industrial buildings, yet we are expanding.</p>
         </div>
         <div>
           <div className='flex justify-between'>
-            <img src={project1} alt='project1' className='h-50vh'/>
-            <img src={project2} alt='project2' className='h-50vh'/>
-            <img src={project3} alt='project3' className='h-50vh'/>
+            <img src={project1} alt='project1' className='h-50vh px-5 py-5'/>
+            <img src={project2} alt='project2' className='h-50vh px-5 py-5'/>
+            <img src={project3} alt='project3' className='h-50vh px-5 py-5'/>
           </div>
           <div className='flex justify-between'>
-            <img src={project4} alt='project4' className='h-50vh'/>
-            <img src={project5} alt='project5' className='h-50vh'/>
-            <img src={project6} alt='project6' className='h-50vh'/>
+            <img src={project4} alt='project4' className='h-50vh px-5 py-5'/>
+            <img src={project5} alt='project5' className='h-50vh px-5 py-5'/>
+            <img src={project6} alt='project6' className='h-50vh px-5 py-5'/>
           </div>
         </div>
     </div>

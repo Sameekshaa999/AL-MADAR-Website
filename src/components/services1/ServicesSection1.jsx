@@ -6,7 +6,7 @@ import services1_TM from '../Zimages/services1_TM.svg'
 const ServicesSection1 = () => {
   return (
     <div>
-        <div className='top-6.5'>
+        <div className=' top-6.5'>
             <img src={services1_bg} alt='services1_bg' className=''/>
             <div>
                 <h2>Our Services</h2>

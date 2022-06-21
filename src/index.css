@@ -31,10 +31,22 @@
   height: 50vh;
 }
 
-.bg-gradient {
+.about-gradient {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(111.35deg, #25215c 32.64%, #69c7ed 82.22%);
+}
+.serviceSection-gradient {
+  background: linear-gradient(180deg, #25215C 0%, #69C7ED 142.32%);
+}
+.footer-gradient {
+  background: linear-gradient(93.8deg, #25215C 0%, #589EC9 126.65%);
+}
+.contact-gradient1 {
+  background: linear-gradient(95.29deg, #25215C -4.2%, #69C7ED 123.27%);
+}
+.contact-gradient2 {
+  background: linear-gradient(93.95deg, #25215C -1.92%, #69C7ED 140.46%);
 }
 
 .grad2 {

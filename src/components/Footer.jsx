@@ -15,7 +15,7 @@ import Linkedin from "../components/Zimages/linkedin.png";
 const Footer = () => {
   return (
     <footer className="w-screen bg-mgrey text-white font-montserrat">
-      <div className="absolute">
+      <div className="footer-gradient absolute">
         <img className="" src={footerbg} alt="/" />
       </div>
       <div className="container mx-auto relative">

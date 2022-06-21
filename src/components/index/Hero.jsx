@@ -4,10 +4,10 @@ import image from '../Zimages/1.1.jpg';
 
 const Hero = () => {
   return (
-    <div className="bg-slate-500 pt-24 h-screen w-full flex flex-col justify-center items-center">
+    <div className="pt-24 h-screen w-full flex justify-center items-center">
       <img src={image} alt="hero" className="h-full top-6.5" />
       <div className="m-auto absolute ">
-        <h1 className='lg:text-5xl md:text-3xl sm:text-1xl text-1xl font-["Montserrat"] text-mpurple mb-14 text-align:center'>
+        <h1 className='lg:text-5xl md:text-3xl sm:text-1xl text-1xl font-["Montserrat"] text-mpurple mb-14 '>
           Exceeding Expectations <br></br>One Property at A Time
         </h1>
         <div className="flex justify-between">

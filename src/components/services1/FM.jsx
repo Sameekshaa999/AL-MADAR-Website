@@ -13,13 +13,14 @@ const FM = () => {
             Facility <br /> Management
           </h1>
         </div>
-        <div className=" flex-col">
+        <div className="flex-col">
           <p className="font-light text-lg text-justify ">
-            Our service guarantees that the property is in top shape <br/> at all
-            times. The in-house buying department will <br/> guarantee that the best
-            rates and businesses are used for <br/> the work, while also maximising
-            the speed with which <br/> the work is finished in order to maximise
-            rental income, <br/> outstanding property condition, and tenant happiness. <br/>
+            Our service guarantees that the property is in top shape <br /> at
+            all times. The in-house buying department will <br /> guarantee that
+            the best rates and businesses are used for <br /> the work, while
+            also maximising the speed with which <br /> the work is finished in
+            order to maximise rental income, <br /> outstanding property
+            condition, and tenant happiness. <br />
             Among the services provided include, but are not limited to:
           </p>
           <img
@@ -35,7 +36,7 @@ const FM = () => {
         </button>
         <div className="flex py-10 divide-y-2 divide-black ">
           <img src={check} alt="check" className="h-7" />
-          <p  className="text-xl font-normal ">Manager Representative</p>
+          <p className="text-xl font-normal ">Manager Representative</p>
         </div>
         <div className="flex py-10">
           <img src={check} alt="check" className="h-7" />

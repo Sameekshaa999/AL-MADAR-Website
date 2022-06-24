@@ -11,12 +11,12 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <AboutSection />
+      {/* <AboutSection />
       <MV />
       <Services />
       <Team />
       <Properties />
-      <CustomerReview />
+      <CustomerReview /> */}
     </>
   );
 };

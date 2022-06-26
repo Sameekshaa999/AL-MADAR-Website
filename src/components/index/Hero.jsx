@@ -9,14 +9,18 @@ const Hero = () => {
       <img
         src={hero}
         alt="hero"
-        className="hidden top-6.5 md:flex md:w-full md:h-full"
+        className="hidden top-6.5 md:flex md:w-full md:h-full z-0"
       />
-      <img src={heroMobile} alt="hero" className="md:hidden top-6.5 w-full" />
+      <img
+        src={heroMobile}
+        alt="hero"
+        className="md:hidden top-6.5 w-full z-0"
+      />
       <div className="mx-auto absolute mt-24">
-        <h1 className="md:text-6xl text-3xl text-center text-mpurple mb-12 md:mb-16 font-extrabold">
+        <h1 className="text-center text-mpurple font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-12 lg:mb-16">
           Exceeding Expectations <br></br>One Property at A Time
         </h1>
-        <div className="grid grid-cols-2 px-24 gap-x-4 md:gap-x-0">
+        <div className="grid grid-cols-2 px-24 gap-x-4 sm:gap-x-3 md:gap-x-2 lg:gap-x-0">
           <div className="mx-auto">
             <Link
               to="/contact"

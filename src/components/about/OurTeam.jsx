@@ -39,7 +39,7 @@ const OurTeam = () => {
         </div>
         <div name="row 2" className="flex flex-row mx-auto px-4 my-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-x-16 gap-y-4 lg:gap-y-8">
-            <div class="order-1 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
+            <div className="order-1 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
               <img src={managers} alt="" className="h-full" />
               <div className="">
                 <div className="w-1/2 lg:w-8/12 h-0.5 lg:h-1.5 mx-7 mt-4 mb-2 lg:my-6 bg-mpurple"></div>
@@ -49,7 +49,7 @@ const OurTeam = () => {
                 </h3>
               </div>
             </div>
-            <div class="order-2 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
+            <div className="order-2 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
               <img src={legal} alt="" className="h-full" />
               <div className="">
                 <div className="w-1/2 lg:w-8/12 h-0.5 lg:h-1.5 mx-7 mt-4 mb-2 lg:my-6 bg-mpurple"></div>
@@ -57,7 +57,7 @@ const OurTeam = () => {
               </div>
             </div>
 
-            <div class="order-3 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
+            <div className="order-3 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
               <div className="">
                 <div className="w-1/2 lg:w-8/12 h-0.5 lg:h-1.5 mx-7 mt-4 mb-2 lg:my-6 bg-mpurple"></div>
                 <h3 className="team-items-text">
@@ -67,7 +67,7 @@ const OurTeam = () => {
               </div>
               <img src={marketing} alt="" className="h-full" />
             </div>
-            <div class="order-4 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
+            <div className="order-4 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
               <div className="">
                 <div className="w-1/2 lg:w-8/12 h-0.5 lg:h-1.5 mx-7 mt-4 mb-2 lg:my-6 bg-mpurple"></div>
                 <h3 className="team-items-text">
@@ -77,7 +77,7 @@ const OurTeam = () => {
               <img src={analysts} alt="" className="h-full" />
             </div>
 
-            <div class="order-5 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
+            <div className="order-5 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
               <img src={guards} alt="" className="h-full" />
               <div className="">
                 <div className="w-1/2 lg:w-8/12 h-0.5 lg:h-1.5 mx-7 mt-4 mb-2 lg:my-6 bg-mpurple"></div>
@@ -87,7 +87,7 @@ const OurTeam = () => {
                 </h3>
               </div>
             </div>
-            <div class="order-6 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
+            <div className="order-6 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
               <img src={cleaners} alt="" className="h-full" />
               <div className="">
                 <div className="w-1/2 lg:w-8/12 h-0.5 lg:h-1.5 mx-7 mt-4 mb-2 lg:my-6 bg-mpurple"></div>
@@ -97,7 +97,7 @@ const OurTeam = () => {
               </div>
             </div>
 
-            <div class="order-7 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
+            <div className="order-7 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
               <div className="">
                 <div className="w-1/2 lg:w-8/12 h-0.5 lg:h-1.5 mx-7 mt-4 mb-2 lg:my-6 bg-mpurple"></div>
                 <h3 className="team-items-text">
@@ -107,7 +107,7 @@ const OurTeam = () => {
               </div>
               <img src={safety} alt="" className="h-full" />
             </div>
-            <div class="order-8 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
+            <div className="order-8 grid grid-cols-2 bg-white drop-shadow-lg hover:drop-shadow-2xl transition duration-200 transform hover:-translate-y-2">
               <div className="">
                 <div className="w-1/2 lg:w-8/12 h-0.5 lg:h-1.5 mx-7 mt-4 mb-2 lg:my-6 bg-mpurple"></div>
                 <h3 className="team-items-text">

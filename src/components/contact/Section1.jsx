@@ -33,18 +33,19 @@ const Section1 = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div className="flex space-between justify-center">
+      <div className="my-10">
+        <div className="flex space-between justify-center my-10">
           <img src={contactHome} alt="contactHome" className="h-10" />
-          <p className="pt-3">New Clients (Property Owners)</p>
+          <div className="w-3"></div>
+          <p className="pt-3 text-lg font-Montserrat text-mpurple font-semibold">    New Clients (Property Owners)</p>
         </div>
         <div className="">
-          <p className="text-center">
+          <p className="text-center my-10">
             Looking for the best property management in Qatar? <br/> 
             Look no further schedule a free consultation by connecting <br/>
             directly with the team or simply give us a call: +974 44675405
           </p>
-          <img src={contactArrow} alt="contactArrow" className="h-10 m-auto" />
+          <img src={contactArrow} alt="contactArrow" className="h-16 m-auto" />
         </div>
       </div>
     </div>

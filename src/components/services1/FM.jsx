@@ -29,29 +29,29 @@ const FM = () => {
           />
         </div>
       </div>
-      <div className=" grid justify-end">
+      <div className=" grid justify-end pl-60">
         <button className="px-4 py-4 bg-purple text-white font-Montserrat font-light text-lg">
           Make An Appointment
         </button>
         <div className="flex py-10 divide-y-2 divide-black ">
           <img src={check} alt="check" className="h-7" />
-          <p  className="text-xl font-normal ">Manager Representative</p>
+          <p  className="text-xl font-normal ">Administrative Services</p>
         </div>
         <div className="flex py-10">
           <img src={check} alt="check" className="h-7" />
-          <p className="text-xl font-normal">Manager Representative</p>
+          <p className="text-xl font-normal">Regular Maintenence</p>
         </div>
         <div className="flex py-10">
           <img src={check} alt="check" className="h-7" />
-          <p className="text-xl font-normal">Manager Representative</p>
+          <p className="text-xl font-normal">Utility Bills</p>
         </div>
         <div className="flex py-10">
           <img src={check} alt="check" className="h-7" />
-          <p className="text-xl font-normal">Manager Representative</p>
+          <p className="text-xl font-normal">Control of Maintence Costs</p>
         </div>
         <div className="flex py-10">
           <img src={check} alt="check" className="h-7" />
-          <p className="text-xl font-normal">Manager Representative</p>
+          <p className="text-xl font-normal">Monthly Reports</p>
         </div>
         <button className=" px-4 py-4 bg-purple text-white font-Montserrat font-light text-lg">
           More Info

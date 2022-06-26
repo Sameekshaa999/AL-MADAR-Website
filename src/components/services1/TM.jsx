@@ -24,7 +24,7 @@ const TM = () => {
           <img src={services1_TM} alt="tenancy Management" className="h-50vh"/>
         </div>
       </div>
-      <div className="grid grid-row-3 ">
+      <div className="grid grid-row-3 justify-end">
           <button className="px-4 py-4 bg-purple text-white font-Montserrat font-light text-lg">Make An Appointment</button>
           <div className="flex py-10 ">
               <img src={check} alt="check" className="h-7"/>

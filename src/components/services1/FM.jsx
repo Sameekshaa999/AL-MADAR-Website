@@ -29,7 +29,7 @@ const FM = () => {
           />
         </div>
       </div>
-      <div className=" flex flex-col flex items-center">
+      <div className=" grid justify-end">
         <button className="px-4 py-4 bg-purple text-white font-Montserrat font-light text-lg">
           Make An Appointment
         </button>

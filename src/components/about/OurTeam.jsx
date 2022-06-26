@@ -22,7 +22,7 @@ const OurTeam = () => {
               Our
             </h2>
             <div className="w-2"></div>
-            <h2 className="lg:mx-0 text-3xl font-semibold text-mblue mt-1.5 lg:text-5xl lg:pt-6 lg:text-left ">
+            <h2 className="lg:mx-0 text-3xl font-semibold text-mblue mt-1.5 lg:text-5xl lg:mt-6 lg:text-left ">
               Team
             </h2>
           </span>

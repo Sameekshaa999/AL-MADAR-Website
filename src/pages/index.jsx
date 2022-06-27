@@ -15,8 +15,8 @@ const Home = () => {
       <MV />
       <Services />
       <Team />
-      {/* <Properties />
-      <CustomerReview /> */}
+      <Properties />
+      {/* <CustomerReview /> */}
     </>
   );
 };
